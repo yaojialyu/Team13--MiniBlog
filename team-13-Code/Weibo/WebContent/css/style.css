@@ -1,0 +1,384 @@
+﻿body {
+	background:#DDF3F7 url('../images/bg.jpg') 0 0 scroll ;
+}
+a {
+	font-family:微软雅黑, "Times New Roman",;
+	font-size:14px;
+}
+
+
+
+
+
+/********  login page   ***********/
+#right_top {
+	position: absolute;
+	text-align:center;
+    right: 10px;
+    top: 5px;
+	z-index: 99;
+	padding:4px;
+	border:2px black dashed;
+	background-color:aqua;
+}
+#right_top a {
+	font-size:14px;
+}
+#right_top a:hover {
+	font-size:22px;
+}
+   
+#login{
+	margin:0 auto;
+	width:600px;
+	text-align:center;
+	padding:200px 0 0 0;
+}
+.cloud {
+    background: url('../images/cloud.png') no-repeat right center;
+    height: 171px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 345px;
+    z-index: -1;
+}
+#login h1 {
+	margin:0 auto;
+	background:url('../images/login-logo.png') no-repeat center 0;
+	height: 130px;
+    margin: 0 0 30px;
+    text-indent: -9999px;
+
+}
+#login .textbox{
+	-webkit-border-radius: 4px;
+	height:24px;
+	font-size:18px;
+	font-style:italic;
+}
+ .button {
+   border-top: 1px solid #96d1f8;
+   background: #65a9d7;
+   background: -webkit-gradient(linear, left top, left bottom, from(#96c9eb), to(#65a9d7));
+   background: -moz-linear-gradient(top, #96c9eb, #65a9d7);
+    text-align: center;
+    text-decoration: none;
+    font: 14px/100% Arial, Helvetica, sans-serif;
+    padding: .1em 1em .3em;
+    -webkit-border-radius: .5em;
+    -moz-border-radius: .5em;
+    border-radius: .5em;
+
+}
+.button:hover {
+  border-top-color: #429bd6;
+   background: #429bd6;
+   color: #ccc;
+    text-decoration: none;
+}
+.button:active {
+  border-top-color: #79aed1;
+   background: #79aed1;
+    position: relative;
+    top: 1px;
+}
+
+
+#login table{
+	text-align:left;
+	margin-left:80px;
+
+}
+#login td {
+	height:24px;
+	width: 200px;
+}
+
+
+
+
+/********  register page   ***********/
+
+.register{
+	margin:0 auto;
+	width:740px;
+}
+.register h1{
+	margin-top:80px;
+}
+.sign_up_info{
+	margin-top:30px;
+	background:#DDF3F7 url('../images/register_body.png')0 0;
+	height:350px;
+}
+.sign_up_info table{
+
+	margin-top:20px;
+	margin-left:80px;
+	color:#0099FF;
+	}
+
+.sign_up_info table td {
+	width:100px;
+	padding-right:10px;
+	font-size:16px;
+}
+.sign_up_info a{
+	float:left;
+	color:red;
+	
+}
+
+.sign_up_info tr {
+	font-size:13px;
+}
+.sign_up_info input {
+	height:27px;
+	font-size:19px;
+	
+}
+
+
+
+/******** Header page   ***********/
+#header,body {
+	width:800px;
+	margin:0 auto;
+	font-size:17px;
+	font-family:微软雅黑, "Times New Roman", 宋体;
+
+}
+#header a:hover{
+	color:navy;
+	font-size:19px;
+
+}
+
+.top_menu {
+	height:17px;
+	text-align:right;
+	margin-top:1px;
+	padding-top:1px;
+}
+#header .menu {
+	width: 800px;
+	height:30px;
+	margin-top:25px;
+} 
+#header form{
+	border:1px black ridge;
+	border-color:white;
+	background-color:#B3D9B0;	
+	padding:5px 9px 0 0;
+	text-align:left;
+	float:right;
+	padding-top:4px;
+}
+#header .menu a{
+	font-size:16px;
+	color:#fff;
+	margin-left:14px;
+}
+#header .logo {
+	float:left;
+}
+
+body #main {
+	height:700px;
+	margin-top:40px;
+}
+.Home_main_l {
+	overflow:hidden;
+	width:600px;
+	float:left;
+	background-color:#F4F8F7;
+}
+.Home_main_r {
+	overflow:hidden;
+	width:200px;
+	float:right;
+	background-color:#D7F3F6;
+}
+
+body #main .Tinput {
+	height:160px;
+}
+
+.TinputArea{
+	height:100px;
+	width:480px;
+	margin:-5px auto auto 40px;
+	}
+	
+.info{
+}
+
+
+.singleTweet {
+	margin-top:10px;
+	height:140px;
+}
+.singleTweetRT {
+	margin-top:10px;
+	height:280px;
+
+}
+.tweetAvatar {
+	float:left;
+	height:130px;
+	width:90px;
+    position:relative; 
+    top:17px;
+    left:20px; 
+}
+.tweetContent {
+	float:left;
+	width:500px;
+	height:120px; 
+	overflow:hidden;
+	
+}
+.tweetContent a {
+	font-size:14px;
+}
+.tweetAuthor {
+	margin-top:15px;
+	margin-left:3px;
+	line-height:20px;
+}
+.name {
+	color:red;
+	font-size:14px;
+
+}
+.retweet {
+	width:500px; 
+	height:130px; 
+	float:right; 
+	margin-right:10px; 
+	border:1px aqua dashed;
+}
+.retweet .pic {
+	margin-right:3px; 
+	float:left;
+	height:30px;
+}
+
+
+
+.Tcount {
+	float:right;
+	margin-right:10px;
+}
+
+.lll {
+	margin-top:10px;
+	border-right-width: 1px;
+    float: left;
+    line-height: 1.6em;
+    width: 60px;
+    padding-left: 3px;
+    white-space: nowrap;
+    list-style: none outside none;
+}
+
+
+
+
+/********  my page   ***********/
+.mypage_head{
+	float:left;
+	width:200px;
+
+}
+.mypage_avatar {
+	width:120px;
+	margin:20px 0 0 50px;
+}
+
+.profile {
+	float:left;
+	width:200px;
+	 margin-left:20px;
+}
+.followbutton{
+	margin-top:10px;
+	margin-left:40px;
+}
+
+.friendlist{
+	margin-left:10px;
+	height:300px;
+	overflow:hidden;
+}
+
+.listelement {
+	float:left;
+	height:60px;
+	width:60px;
+	margin-bottom:12px;
+	text-align:center;
+}
+
+.listelementAvatar {
+	width:50px;
+}
+.listelementfont{
+	font-size:10px;
+	color:red;
+}
+.followinfo {
+	padding-top:20px;
+
+}
+.followinfo a{
+	font-size:16px;
+	
+}
+
+.follow {
+	height:90px;
+	overflow:hidden;
+	border:1px aqua dashed;
+	margin:4px;
+
+	}
+.followAvatar {
+	height:90px;
+	float:left;
+	width:100px;
+	text-align:center;
+}
+.followAvatar img {
+	height:48px;
+	width:48px;
+	margin:10px 0px 0 0px;
+}
+
+.followContent{
+	width:480px;
+	height:90px;
+	float:right
+}
+
+.followpageButton {
+}
+
+.followcount {
+	float:left;
+	background-image:url('../images/followcont.png');
+	width:480px;
+	height:50px;
+	padding:10px;
+	padding-left:30px;
+	color:purple;
+
+}
+
+
+
+.ffollow{
+	float:right;
+	margin-right:20px;
+}

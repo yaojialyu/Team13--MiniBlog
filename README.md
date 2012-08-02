@@ -1,4 +1,15 @@
 Team13--MiniBlog
 =================================
 
-A mini blog like Sina Weibo, maked for DBMS course.
+A mini blog named Team13 functions most as Sina Weibo, maked for DBMS course in May, 2011.  
+
+With two team members: Chang XU, Zixiang Zhang.  
+
+Written in Java.
+
+
+this github project include:  
+ - ER-design pattern, 
+ - Minutes, 
+ - Documentation 
+ - Project source code.

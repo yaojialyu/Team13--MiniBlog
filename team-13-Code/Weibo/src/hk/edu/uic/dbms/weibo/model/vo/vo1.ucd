@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editmodel:ClassDiagramEditModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:editmodel="editmodel.xmi" xmlns:options="options.xmi" name="vo1" size="1047,566" id="hk.edu.uic.dbms.weibo.model.vo" metadata="uml2-1.0" initialized="true" tag="1000" key="32303037303533312D3130303020576569626F2F636F667468657737">
+  <children xsi:type="editmodel:ClassEditModel" name="User" location="50,50" size="147,248" id="hk.edu.uic.dbms.weibo.model.vo/User" runTimeClassModel="FollowerCount,Email,UID,Password,FollowingCount,Avatar,Gendar,UName,User(),TweetCount,City">
+    <children xsi:type="editmodel:CompartmentEditModel" size="124,180">
+      <children xsi:type="editmodel:AttributeEditModel" name="Avatar" id="hk.edu.uic.dbms.weibo.model.vo/User#Avatar"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="City" id="hk.edu.uic.dbms.weibo.model.vo/User#City"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="Email" id="hk.edu.uic.dbms.weibo.model.vo/User#Email"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="FollowerCount" id="hk.edu.uic.dbms.weibo.model.vo/User#FollowerCount"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="FollowingCount" id="hk.edu.uic.dbms.weibo.model.vo/User#FollowingCount"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="Gendar" id="hk.edu.uic.dbms.weibo.model.vo/User#Gendar"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="Password" id="hk.edu.uic.dbms.weibo.model.vo/User#Password"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="TweetCount" id="hk.edu.uic.dbms.weibo.model.vo/User#TweetCount"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="UID" id="hk.edu.uic.dbms.weibo.model.vo/User#UID"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="UName" id="hk.edu.uic.dbms.weibo.model.vo/User#UName"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="55,18">
+      <children xsi:type="editmodel:MethodEditModel" name="User" id="hk.edu.uic.dbms.weibo.model.vo/User#User()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="PrivateMessage" location="445,50" size="163,158" id="hk.edu.uic.dbms.weibo.model.vo/PrivateMessage" runTimeClassModel="PMID,ReceiverUID,Date,UID,PrivateMessage(),Content">
+    <children xsi:type="editmodel:CompartmentEditModel" size="106,90">
+      <children xsi:type="editmodel:AttributeEditModel" name="Content" id="hk.edu.uic.dbms.weibo.model.vo/PrivateMessage#Content"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="Date" id="hk.edu.uic.dbms.weibo.model.vo/PrivateMessage#Date"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="PMID" id="hk.edu.uic.dbms.weibo.model.vo/PrivateMessage#PMID"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="ReceiverUID" id="hk.edu.uic.dbms.weibo.model.vo/PrivateMessage#ReceiverUID"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="UID" id="hk.edu.uic.dbms.weibo.model.vo/PrivateMessage#UID"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="116,18">
+      <children xsi:type="editmodel:MethodEditModel" name="PrivateMessage" id="hk.edu.uic.dbms.weibo.model.vo/PrivateMessage#PrivateMessage()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="UserRelation" location="840,50" size="139,104" id="hk.edu.uic.dbms.weibo.model.vo/UserRelation" runTimeClassModel="FollowingUID,UID,UserRelation()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="111,36">
+      <children xsi:type="editmodel:AttributeEditModel" name="FollowingUID" id="hk.edu.uic.dbms.weibo.model.vo/UserRelation#FollowingUID"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="UID" id="hk.edu.uic.dbms.weibo.model.vo/UserRelation#UID"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="100,18">
+      <children xsi:type="editmodel:MethodEditModel" name="UserRelation" id="hk.edu.uic.dbms.weibo.model.vo/UserRelation#UserRelation()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="Tweet" location="247,50" size="148,230" id="hk.edu.uic.dbms.weibo.model.vo/Tweet" runTimeClassModel="IsRetweet,RetweetCount,Date,UID,PicURL,HadPic,Tweet(),Content,TweetID,CommentCount">
+    <children xsi:type="editmodel:CompartmentEditModel" size="125,162">
+      <children xsi:type="editmodel:AttributeEditModel" name="CommentCount" id="hk.edu.uic.dbms.weibo.model.vo/Tweet#CommentCount"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="Content" id="hk.edu.uic.dbms.weibo.model.vo/Tweet#Content"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="Date" id="hk.edu.uic.dbms.weibo.model.vo/Tweet#Date"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="HadPic" id="hk.edu.uic.dbms.weibo.model.vo/Tweet#HadPic"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="IsRetweet" id="hk.edu.uic.dbms.weibo.model.vo/Tweet#IsRetweet"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="PicURL" id="hk.edu.uic.dbms.weibo.model.vo/Tweet#PicURL"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="RetweetCount" id="hk.edu.uic.dbms.weibo.model.vo/Tweet#RetweetCount"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="TweetID" id="hk.edu.uic.dbms.weibo.model.vo/Tweet#TweetID"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="UID" id="hk.edu.uic.dbms.weibo.model.vo/Tweet#UID"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="62,18">
+      <children xsi:type="editmodel:MethodEditModel" name="Tweet" id="hk.edu.uic.dbms.weibo.model.vo/Tweet#Tweet()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="Comment" location="658,50" size="132,158" id="hk.edu.uic.dbms.weibo.model.vo/Comment" runTimeClassModel="Date,InsertUID,CommentsID,Content,TweetsID,Comment()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="109,90">
+      <children xsi:type="editmodel:AttributeEditModel" name="CommentsID" id="hk.edu.uic.dbms.weibo.model.vo/Comment#CommentsID"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="Content" id="hk.edu.uic.dbms.weibo.model.vo/Comment#Content"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="Date" id="hk.edu.uic.dbms.weibo.model.vo/Comment#Date"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="InsertUID" id="hk.edu.uic.dbms.weibo.model.vo/Comment#InsertUID"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="TweetsID" id="hk.edu.uic.dbms.weibo.model.vo/Comment#TweetsID"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="82,18">
+      <children xsi:type="editmodel:MethodEditModel" name="Comment" id="hk.edu.uic.dbms.weibo.model.vo/Comment#Comment()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <diagramOptions xsi:type="options:ClassDiagramOptions" level="-1" showScope="InPackage" properties="wireOptions=7;Product=eUML2"/>
+  <boardSetting snapToGeometry="true" gridEnabled="true" gridSpacing="15,15" gridOrigin="0,0" rulerUnit="pixel" gridVisibility="false">
+    <leftRuler/>
+    <topRuler/>
+  </boardSetting>
+  <classDiagramPreferences xsi:type="editmodel:UMLClassDiagramPreference" showPopupBars="true" showConnectionHandles="true" attributeSorter="Natural" methodSorter="Natural" showClassStereotype="true" showPackageStereotype="true" showDependencyStereotype="true" showInterfaceStereotype="true" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+</editmodel:ClassDiagramEditModel>

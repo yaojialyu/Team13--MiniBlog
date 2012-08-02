@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editmodel:ClassDiagramEditModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:editmodel="editmodel.xmi" xmlns:options="options.xmi" name="Dependencies" size="777,551" id="." metadata="uml2-1.0" initialized="true" tag="1000" key="32303037303533312D3130303020576569626F2F636F667468657737">
+  <children xsi:type="editmodel:PackageEditModel" name="hk.edu.uic.dbms.weibo.controller.servlets" location="50,50" size="353,60" id="hk.edu.uic.dbms.weibo.controller.servlets">
+    <packagePreferences xsi:type="editmodel:UMLClassDiagramPackagePreference"/>
+  </children>
+  <children xsi:type="editmodel:PackageEditModel" name="hk.edu.uic.dbms.weibo.model.dao" location="434,160" size="295,60" id="hk.edu.uic.dbms.weibo.model.dao">
+    <packagePreferences xsi:type="editmodel:UMLClassDiagramPackagePreference"/>
+  </children>
+  <children xsi:type="editmodel:PackageEditModel" name="hk.edu.uic.dbms.weibo.model.dao.impl" location="50,160" size="334,60" id="hk.edu.uic.dbms.weibo.model.dao.impl">
+    <packagePreferences xsi:type="editmodel:UMLClassDiagramPackagePreference"/>
+  </children>
+  <children xsi:type="editmodel:PackageEditModel" name="hk.edu.uic.dbms.weibo.model.dbc" location="50,270" size="295,60" id="hk.edu.uic.dbms.weibo.model.dbc">
+    <packagePreferences xsi:type="editmodel:UMLClassDiagramPackagePreference"/>
+  </children>
+  <children xsi:type="editmodel:PackageEditModel" name="hk.edu.uic.dbms.weibo.model.vo" location="395,270" size="285,60" id="hk.edu.uic.dbms.weibo.model.vo">
+    <packagePreferences xsi:type="editmodel:UMLClassDiagramPackagePreference"/>
+  </children>
+  <children xsi:type="editmodel:PackageEditModel" name="hk.edu.uic.dbms.weibo.test" location="50,380" size="244,60" id="hk.edu.uic.dbms.weibo.test">
+    <packagePreferences xsi:type="editmodel:UMLClassDiagramPackagePreference"/>
+  </children>
+  <diagramOptions xsi:type="options:ClassDiagramOptions" interactive="false" properties="wireOptions=4;Product=eUML2;displayOptions=1"/>
+  <boardSetting snapToGeometry="true" gridEnabled="true" gridSpacing="15,15" gridOrigin="0,0" rulerUnit="pixel" gridVisibility="false">
+    <leftRuler/>
+    <topRuler/>
+  </boardSetting>
+  <classDiagramPreferences xsi:type="editmodel:UMLClassDiagramPreference" showPopupBars="true" showConnectionHandles="true" attributeSorter="Natural" methodSorter="Natural" showClassStereotype="true" showPackageStereotype="true" showDependencyStereotype="true" showInterfaceStereotype="true" innerClassSorter="Natural" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3"/>
+</editmodel:ClassDiagramEditModel>
