@@ -3,7 +3,7 @@ Team13--MiniBlog
 
 A mini blog named Team13 functions most as Sina Weibo, maked for DBMS course in May, 2011.  
 
-With two team members: Chang XU, Zixiang Zhang.  
+With two team members: Chang Xu, Zixiang Zhang.  
 
 Written in Java.
 
